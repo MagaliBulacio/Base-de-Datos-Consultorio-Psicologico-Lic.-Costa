@@ -1,0 +1,12 @@
+create table pacientes(
+id_pac int primary key,
+    nombre varchar(50),
+    apellido varchar(50),
+    fecha_nacimiento date,
+    telefono int,
+    email varchar(50),
+    direccion varchar(50),
+    obra_social varchar(50),
+    fecha_admision date,
+    fecha_alta date,
+    id_ter int);
