@@ -10,3 +10,13 @@ id_pac int primary key,
     fecha_admision date,
     fecha_alta date,
     id_ter int);
+
+create table terapeutas(
+id_ter int primary key,
+    nombre varchar(50),
+    apellido varchar(50),
+    especialidad varchar(50),
+    telefono int,
+    email varchar(50),
+    direccion varchar(50)
+);
